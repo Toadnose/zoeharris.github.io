@@ -6,7 +6,7 @@ header.hero-block {
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    background-color: #e4ffe6;
+    background-color:#c09ca4;
 }
 
 @media (min-width: 1200px) {

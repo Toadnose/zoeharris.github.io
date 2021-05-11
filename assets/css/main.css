@@ -3,10 +3,16 @@
 
 h1, h2, h3 { color: #222 }
 p, li { color: #222 }
-.bg-pastel-coral { background-color: #fcd0c7 }
-.bg-pastel-grey { background-color: #edf5f1 }
-
-.bg-soft-black { background-color: #181A18 }
+.bg-pastel-coral { background-color: #a57f87}
+.bg-pastel-grey { background-color: #5b7191 }
+.bg-pastel-coral2 {background-color: #c4ae74 }
+.bg-pastel-purple { background-color: #5f4769}
+.bg-pastel-purple2 { background-color: #795d85}
+.bg-pastel-purple3 { background-color: #4c3b53}
+.bg-soft-black { background-color: #9e6271 }
+.bg-soft-grey  {background-color: #7e7d7d }
+.bg-soft-yellow {background-color: #c7a956 }
+.bg-soft-blue {background-color: #315064 }
 
 
 /* ==== CONTAINER FOR SINGLE COLUMN OF CONTENT ==== */

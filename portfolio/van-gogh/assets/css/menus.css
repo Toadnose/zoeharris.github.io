@@ -54,7 +54,7 @@
 
 /* website logo fixed size in desktop menu and mobile menu bar  */
 .container-menu-desktop    a:first-child img,
-.container-menu-bar-mobile a:first-child img { width: 60px; height: 80px }
+.container-menu-bar-mobile a:first-child img { width: 70px; height: 80px }
 
 /* website logo vertically cente#5ba745 in desktop menu and mobile menu bar  */
 .container-menu-desktop    a:first-child,

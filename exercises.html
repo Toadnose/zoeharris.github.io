@@ -4,37 +4,251 @@
     <meta charset="UTF-8">
     <title>Zoe Harris | Home Page</title>
     <meta name="description" content="Welcome to my website that showcases some of my digital creations.">   
-    <link rel="stylesheet" href="assets/css/global.css">
+    <link href="assets/css/resets.css" rel="stylesheet">
+    <link href="assets/css/menus.css" rel="stylesheet">
+    <link href="assets/css/header.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/footer.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">    
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img//favicon-32x32.png">    
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img//favicon-16x16.png">    
+    <link rel="manifest" href="../assets/img/site.webmanifest">
+
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+
+   
+    <!-- Font Awesome 5 icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+
+    <style>
+        header.hero-block, .menu-light, .flyout-menu.menu-light { background-color: #9580a5 }
+        .wavy-underline { text-decoration: wavy underline brown }
+    </style>
+
 </head>
+
 <body>
-    <h1>Zou's webpage</h1>
-<h2>THi there, I wish you the warming of welcomes to my wonderful homepage </h2>
 
-<p>Now, who am I? Well, I am actually a professional student. What does the mean, you may ask. 
-    It means that I am a full time University student, who does her very best to work hard and 
-    well on every single task instead of living my young adult life to the fullest. Yay.
-    </p>
-    <p>
-        Why did I, Zou, create this page? I created this webpage because, as a pro student, I have to.
-    </p>
+    <!-- Begin desktop menu -->
+    <div class="container-menu-desktop menu-light menu-sticky">
+        <!-- first child item -->
+        <a href="index.html"><img src="assets/img/lollypug.png" alt="website logo"></a>
+        <!-- second child item -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio/index.html">Portfolio</a></li>
+            <li><a href="exercises.html">Extra</a></li>
+            <li><a href="contact/index.html" class="btn-cta">Contact &nbsp;<i class="fas fa-arrow-right"></i></a></li>
+        </ul>
+    </div>
+    <!-- End desktop menu -->
 
-<h3>Here are a couple samples of Web Pages. Chose wisely...</h3>
 
-<p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-<p><a href="exercises/page-2.html">IBAT Chocolates</a></p>
-<p><a href="exercises/page-3.html">Prince & Purple Rain</a></p>
-<p><a href="exercises/page-4.html">Lorem Ipsum Text</a></p>
-<p><a href="exercises/page-5.html">Vincent van Gogh</a></p> 
-<p><a href="exercises/page-6.html">Irish Tourism</a></p> 
-<p><a href="exercises/page-7.html">Smoothies</a></p> 
-<p><a href="exercises/page-8.html">Software Analytics</a></p> 
-<p><a href="exercises/page-9.html">The Box Model</a></p> 
-<p><a href="exercises/page-10.html">Web Page With Panels</a></p> 
-<p><a href="exercises/page-11.html">Web Page with Alternating Sections</a></p>  
-<p><a href="exercises/page-12.html">Responsive grid of rows and columns</a></p> 
-<p><a href="exercises/buttons-icons.html">Buttons and Icons</a></p> 
+    <!-- Begin mobile menu bar -->
+    <div class="container-menu-bar-mobile menu-light menu-sticky">
+            <!-- first child -->
+            <a href="index.html"><img src="assets/img/lollypug.png" alt="website logo"></a>
+            <!-- second child -->
+            <div class="item-icon">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    <!-- End mobile menu bar -->
 
-<img src="assets/img/burgerpug.png" alt="BURGER PUG FOR LIFE">
+    <!-- Begin mobile menu slide-out options -->
+    <div class="flyout-menu flyout-menu-is-closed menu-light">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio/index.html">Portfolio</a></li>
+            <li><a href="contact/index.html" class="btn-cta">Contact &nbsp;<i class="fas fa-arrow-right"></i></a></li>
+        </ul>
 
+        <hr>
+        <h4>About Me</h4>
+        <div class="fly-out-profile-box">
+            <img src="assets/img/barbapapapub.png" alt="Zoe Harris, web designer">
+            <p>Hi, I'm <b>Zoe Harris</b>, a web and digital designer based in Paris, France.</p>
+        </div>
+   
+        <h4>Contact</h4>
+        <p>Have a project you'd like to discuss? Let's make something great together!</p>
+
+        <h5><a href="zoe.harris1012@gmail.com" target="_blank">zoe.harris1012@gmail.com</a></h5>
+
+        <h4>Social Links</h4>
+        <div class="fly-out-social-icons">
+            <a href="https://github.com/zoeharris1012" target="_blank"><i class="fab fa-github-square fa-fw"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-fw"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    </div>
+    <!-- End mobile menu slide-out options -->
+
+     <!-- Begin hero block -->
+     <header class="hero-block unhide-content-under-sticky-menu">
+            <div class="hero-text-container">
+                <h1>Some more thing I've created</h1>
+                <h2>Check out down bellow some more of my CSS, HTML and JavaScript projects! </h2>
+                <div class="container-btn"><a href="contact/index.html" class="btn btn-solid"><i class="fas fa-arrow-right"></i> Let's talk</a>
+                <a href="portfolio/index.html" class="btn btn-solid btn-ghost"><i class="fas fa-arrow-right"></i> Portfolio</a>
+                </div>
+        </div>
+    </header>
+    <!-- End hero block -->
+
+	<!-- Begin single-column container -->
+
+    <div class="container-flexbox bg-pastel-purple2">
+		<div class="item-1">
+			<h2>HTML and CSS projects</h2>
+		</div>
+    </div><!-- End parent flexbox container -->
+    
+	
+	<div class="container-flexbox bg-pastel-purple">
+        <div class="item-3">
+            <a href="exercises/page-1.html"><img src="assets/img/ataleoftwocities.png"  alt="Project: A Tale of Two Cities"></a>
+            <h3>A Tale of Two Cities</h3>
+            <p>Responsive page layout with fluid typography, Google Fonts, and embedded YouTube video.</p>
+            <a href="exercises/page-1.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>             
+        </div>
+    
+        <div class="item-3">
+            <a href="exercises/page-2.html"><img src="assets/img/choco.png"  alt="Project: IBAT Chocolate"></a>
+            <h3>IBAT Chocolate</h3>
+            <p>Transparent images, serverless email sign-up form and JavaScript on-scroll menu effects.</p>
+            <a href="exercises/page-2.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>           
+        </div>
+        
+        <div class="item-3">
+            <a href="exercises/page-3.html"><img src="assets/img/purple.png"  alt="Project: Prince & Purple Rain"></a>
+            <h3>Prince & Purple Raine</h3>
+            <p>On-page navigation with a looped background video that includes a tinted overlay.</p>
+            <a href="exercises/page-3.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>               
+        </div>
+
+        <div class="item-3">
+            <a href="exercises/page-4.html"><img src="assets/img/latin.png"  alt="Project: Lorem Ipsum Text"></a>
+            <h3>Lorem Ipsum Text</h3>
+            <p>Responsive page layout with fluid typography, Google Fonts, and embedded YouTube video.</p>
+            <a href="exercises/page-4.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>             
+        </div>
+
+        <div class="item-3">
+            <a href="exercises/page-5.html"><img src="assets/img/vincent.png"  alt="Project: Vincent van Gogh"></a>
+            <h3>Vincent van Goghe</h3>
+            <p>Transparent images, serverless email sign-up form and JavaScript on-scroll menu effects.</p>
+            <a href="exercises/page-5.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>           
+        </div>
+        
+        <div class="item-3">
+            <a href="exercises/page-6.html"><img src="assets/img/ireland.png"  alt="Project: Irish Tourism"></a>
+            <h3>Irish Tourism</h3>
+            <p>On-page navigation with a looped background video that includes a tinted overlay.</p>
+            <a href="exercises/page-6.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>               
+        </div>
+
+        <div class="item-3">
+            <a href="exercises/page-7.html"><img src="assets/img/smoothies.png"  alt="Project: Smoothies"></a>
+            <h3>Smoothies</h3>
+            <p>Responsive page layout with fluid typography, Google Fonts, and embedded YouTube video.</p>
+            <a href="exercises/page-7.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>             
+        </div>
+
+        <div class="item-3">
+            <a href="exercises/page-8.html"><img src="assets/img/digital.png"  alt="Project: Software Analytics"></a>
+            <h3>Software Analyticse</h3>
+            <p>Transparent images, serverless email sign-up form and JavaScript on-scroll menu effects.</p>
+            <a href="exercises/page-8.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>           
+        </div>
+        
+        <div class="item-3">
+            <a href="exercises/page-9.html"><img src="assets/img/box.png"  alt="Project: The Box Mode"></a>
+            <h3>The Box Mode</h3>
+            <p>On-page navigation with a looped background video that includes a tinted overlay.</p>
+            <a href="exercises/page-9.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>               
+        </div>
+
+        <div class="item-3">
+            <a href="exercises/page-10.html"><img src="assets/img/tabi.png"  alt="Project: Web Page With Panels"></a>
+            <h3>Web Page With Panels</h3>
+            <p>Responsive page layout with fluid typography, Google Fonts, and embedded YouTube video.</p>
+            <a href="exercises/page-10.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>             
+        </div>
+
+        <div class="item-3">
+            <a href="exercises/page-11.html"><img src="assets/img/aboutus.png"  alt="Project: Web Page with Alternating Sections"></a>
+            <h3>Web Page with Alternating Sections</h3>
+            <p>Transparent images, serverless email sign-up form and JavaScript on-scroll menu effects.</p>
+            <a href="exercises/page-11.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>           
+        </div>
+
+        <div class="item-3">
+            <a href="exercises/page-12.html"><img src="assets/img/box2.png"  alt="Project: Responsive grid of rows and column"></a>
+            <h3>Responsive grid of rows and columne</h3>
+            <p>On-page navigation with a looped background video that includes a tinted overlay.</p>
+            <a href="exercises/page-12.html" class="button button-solid">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>               
+        </div>
+	</div>
+
+    <div class="container-flexbox bg-pastel-purple3">
+		<div class="item-1">
+			<h2>JavaScript projects</h2>
+		</div>
+    </div><!-- End parent flexbox container -->
+    
+
+	<footer>
+
+        <h4>Zoe Harris</h4>
+        <h5>A Front-End Development Goddess</h5>
+    
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio/index.html">Portfolio</a></li>
+            <li><a href="exercises.html">Extra</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
+        </ul>
+        
+        <ul class="footer-icons">
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+    
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+    
+            <li>
+                <a href="https://github.com/zoeharris1012" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+    
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            
+         </ul>                
+        
+    </footer>
+	
+   
+    <script src="assets/js/menus.js"></script>
 </body>
 </html>

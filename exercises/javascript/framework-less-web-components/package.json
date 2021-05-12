@@ -1,0 +1,26 @@
+{
+  "name": "framework-less-web-components",
+  "version": "1.0.0",
+  "description": "Mine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoeharris1012/framework-less-web-components-.git"
+  },
+  "keywords": [
+    "framework"
+  ],
+  "author": "Zoe Harris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoeharris1012/framework-less-web-components-/issues"
+  },
+  "homepage": "https://github.com/zoeharris1012/framework-less-web-components-#readme",
+  "dependencies": {
+    "bootstrap": "5.0.0-beta3",
+    "http-server": "0.12.3"
+  }
+}
